@@ -6,6 +6,6 @@ This is the boilerplate for connecting to a Parse Server set up on an EC2 instan
 
 2. Create a new class that extends Application to initialize your Parse Server connection. For this, you'll need your app id, client/master key, and server url + "/", all of which you can get by connecting to your EC2 instance via SSH (I used Putty on Windows).
 
-3. In your AndroidManifest.xml file, make sure you include android:name=".App" under <application>, NOT <activity>
+3. In your AndroidManifest.xml file, make sure you include android:name=".App" under application, NOT activity
 
 4. Check out [this link](http://docs.parseplatform.org/android/guide/) to the Parse Android docs for more info and for ParseObject methods. Enjoy!
